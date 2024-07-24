@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const baseUrl = 'http://localhost:3000/todo';
+const baseUrl = 'https://todo-app-using-mern-iwnv.onrender.com';
 
 const getAlltodo = (setTodo) => {
   axios.get(`${baseUrl}/get`)
